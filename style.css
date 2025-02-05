@@ -1,0 +1,73 @@
+body {
+   margin: 0;
+   font-family: "Roboto", serif;
+
+
+
+    
+  }
+
+  .header {
+    background-color: #1f2937;
+    display:flex;
+  }
+
+  .header > ul{
+    list-style-type: none;
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+  }
+  
+
+  .container1 {
+    background-color: #1f2937;
+    color: white;
+    display:flex;
+    justify-content: space-between;
+    padding:200px;
+    /*
+    padding-left: 200px;
+    padding-right: 200px;
+    */
+  }
+
+  .c1container {
+    display:flex;
+    flex-direction: column;
+    flex: 0 0 400px;
+  }
+  .c1header{
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 900;
+  }
+
+  .c1text{
+    color: #E5E7EB;
+    font-size: 18px;
+  }
+
+  .c1button {
+    font-family: Roboto, sans-serif;
+    border: none;
+    border-radius: 8px;
+    background: #eee;
+    max-width: 100px;
+    
+  }
+
+  .c1picture {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .c1picture > img {
+    max-width: 300px;
+    max-height: 200px;
+    flex: 0 0;
+  }
+
+/* This is a CSS comment */
